@@ -63,7 +63,7 @@ class Camera {
 		)
 
 		// 设置相机位置
-		this.instance.position.set(500, 250, 200)
+		this.instance.position.set(10, 10, 10)
 
 		// 将相机加入场景
 		this.scene.add(this.instance)

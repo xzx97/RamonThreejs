@@ -33,12 +33,16 @@ export default class LiftingDevice {
             case "LiftingDevice000": {
                 this.liftingDevice000 = this.resources.items.LiftingDevice000.scene.children[0]
                 this.liftingDevice000.material = material
+                // 下落检测时，相对下降幅度 0.8m
+                this.liftingDevice000.position.y -= 0.8
                 this.scene.add(this.liftingDevice000)
                 break
             }
             case "LiftingDevice001": {
                 this.liftingDevice001 = this.resources.items.LiftingDevice001.scene.children[0]
                 this.liftingDevice001.material = material
+                // 相对下降幅度 0.8m
+                this.liftingDevice001.position.y -= 0.8
                 this.scene.add(this.liftingDevice001)
                 break
             }
