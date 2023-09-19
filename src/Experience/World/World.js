@@ -5,6 +5,7 @@ import InfoPanel from "./InfoPanel"
 import Base from "./Base"
 import Huoqie from "./Huoqie"
 import LiftingDevice from "./LiftingDevice"
+import Billets from "./Billets"
 
 // 单例模式变量
 var instance = null
@@ -44,12 +45,16 @@ export default class World {
 			}
 			if (this.models["Huoqie"].modelList.includes(name)) {
 				this.models["Huoqie"].loadModel(name)
-				// this.models["Huoqie"] = new Huoqie()
 			}
 			if (this.models["LiftingDevice"].modelList.includes(name)) {
 				this.models["LiftingDevice"].loadModel(name)
 			}
 		})
+
+		var billet1 = new Billets()
+
+		this.models["Billets"] = billet1
+		// this.models["Billets"].push(new)
 
 		// 添加坐标轴
 		this.axeshelper = new AxesHelper(3)

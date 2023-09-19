@@ -1,3 +1,8 @@
+/**
+ * 本模块与升降装置模型相关
+ * 
+ */
+
 import * as THREE from "three"
 import Experience from "../Experience"
 

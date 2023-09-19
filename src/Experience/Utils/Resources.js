@@ -63,14 +63,18 @@ export default class Resources extends EventEmitter {
         }
     }
 
+    /*每次加载完一个资源就调用该函数，
+    * 由该函数触发一个 sourceReady 事件，在 World 模块中，
+    * 根据加载资源的名字，触发对应的生成函数，将模型加载入场景中
+    */ 
     sourceLoaded(source, file) {
 
         this.items[source.name] = file
         
         this.loaded++
 
-        // if (this.loaded === this.toLoad) {
+        // 触发 sourceReady 事件，并将资源名称作为参数传递
+        // 其中 source.name 有资源列表 Sources.js 中 name 确定
         this.trigger("sourceReady", [source.name])
-        // }
     }
 }
