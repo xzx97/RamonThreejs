@@ -22,24 +22,24 @@ export default [
     //     path: "src/assets/models/Draco/HuoQie_Draco_C6.glb"
     // },
     {
-        name: "Huoqie000",
+        name: "Huoqie1",
         type: "gltfModel",
-        path: "src/assets/models/Draco/HuoQie000_Draco_C6.glb"
+        path: "src/assets/models/Draco/HuoQie1_Draco_C6.glb"
     },
     {
-        name: "Huoqie001",
+        name: "Huoqie1_2",
         type: "gltfModel",
-        path: "src/assets/models/Draco/HuoQie001_Draco_C6.glb"
+        path: "src/assets/models/Draco/HuoQie1_2_Draco_C6.glb"
     },
     {
-        name: "Huoqie010",
+        name: "Huoqie2",
         type: "gltfModel",
-        path: "src/assets/models/Draco/HuoQie010_Draco_C6.glb"
+        path: "src/assets/models/Draco/HuoQie2_Draco_C6.glb"
     },
     {
-        name: "Huoqie011",
+        name: "Huoqie2_2",
         type: "gltfModel",
-        path: "src/assets/models/Draco/HuoQie011_Draco_C6.glb"
+        path: "src/assets/models/Draco/HuoQie2_2_Draco_C6.glb"
     },
     {
         name: "HuoqieRail",
@@ -52,14 +52,14 @@ export default [
         path: "src/assets/models/Draco/Laser_Draco_C6.glb"
     },
     {
-        name: "LiftingDevice000",
+        name: "Lift1",
         type: "gltfModel",
-        path: "src/assets/models/Draco/LiftingDevice000_Draco_C6.glb"
+        path: "src/assets/models/Draco/Lift1_Draco_C6.glb"
     },
     {
-        name: "LiftingDevice001",
+        name: "Lift2",
         type: "gltfModel",
-        path: "src/assets/models/Draco/LiftingDevice001_Draco_C6.glb"
+        path: "src/assets/models/Draco/Lift2_Draco_C6.glb"
     },
     {
         name: "LiftingSteady",
